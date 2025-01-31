@@ -6,7 +6,7 @@ import { SingleUserResponse, User } from '../interfaces/user-request.interface';
 @Injectable({
   providedIn: 'root',
 })
-export class UserServiceService {
+export class UserService {
   private hhtp = inject(HttpClient);
 
   private baseUrl = 'https://reqres.in/api/users';
